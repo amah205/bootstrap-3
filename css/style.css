@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,300&display=swap');
 
+
 body{
     font-family: "Roboto",sans-serif;
     line-height: 1.8;
@@ -249,12 +250,22 @@ form input .form-control{
 
 @media (min-width:0px) and (max-width:575px){
     .query{
-        background-color: gray;
+        background-color: #444;
+        color: #fff;
         position: relative;
         z-index: 5;
+        
     }
 
+    .query a{
+        color: white;
+        padding: 10px 0px 10px 20px;
+        
+    }
     
+    .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+        border-bottom: none;
+    }
 
     .navbar{
         box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
@@ -297,6 +308,7 @@ form input .form-control{
 
     .showcase img{
         width: 50%;
+        border-radius: 10px;
     }
 
     .intro-section{
@@ -304,8 +316,16 @@ form input .form-control{
         margin-bottom: 20px;
     }
 
+
+    .service{
+        box-shadow: 0px 0px 10px rgba(0,0, 0, 0.5);
+        width: 80%;
+        margin:0 auto;
+        padding: 20px 0px;
+    }
+
     .service p{
-        width: 50%;
+        width: 90%;
         margin: 0 auto;
         padding-bottom: 20px;
     }
@@ -319,13 +339,18 @@ form input .form-control{
     }
 
     .about img{
-        width: 70%;
+        width: 60%;
         margin: 20px 0px;
         
     }
 
+    .gap{
+        box-shadow: 0px 0px 10px rgba(0,0, 0, 0.5);
+        width: 95%;
+    }
+
     .shift-2 p{
-        width: 60%;
+        width: 90%;
         margin: 0 auto;
         
     }
