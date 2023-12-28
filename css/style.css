@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,300&display=swap');
 *{
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 
 }
 
-
+/*.section-carousel,.showcase,.about,.blog,.contact,.features{
+    overflow-x: hidden;
+}*/
 
 body{
     font-family: "Roboto",sans-serif;
     line-height: 1.8;
+    overflow-x: hidden;
 }
 
 /*h1,h2,h3,h4,h5,h6{
@@ -260,7 +263,7 @@ form input .form-control{
         background-color: #444;
         color: #fff;
         position: relative;
-        z-index: 5;
+        z-index: 2;
         
     }
 
@@ -293,7 +296,7 @@ form input .form-control{
         padding-top: 3px;
         margin-top: 35px;
         /*padding-bottom: 50px;*/
-        z-index: 2;
+        z-index: -1;
         background-attachment: fixed;
         /*background: linear-gradient(#00e0fe,#1107fe);*/
         /*position: absolute;*/
