@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,300&display=swap');
+*{
+    overflow-x: hidden;
+
+}
+
 
 
 body{
@@ -6,9 +11,9 @@ body{
     line-height: 1.8;
 }
 
-h1,h2,h3,h4,h5,h6{
+/*h1,h2,h3,h4,h5,h6{
     font-weight: 900;
-}
+}*/
 
 img{
     width:100% ;
@@ -31,7 +36,8 @@ a{
     box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
     height: 10vh;
     position: fixed;
-    background-attachment: fixed;
+   /* background-attachment: fixed;*/
+   
 }
 
 .section-img{
@@ -154,6 +160,7 @@ a{
 .about h1{
     font-weight: bold;
 }
+
 
 .video-btn{
     width: 200px;
@@ -322,6 +329,7 @@ form input .form-control{
         width: 80%;
         margin:0 auto;
         padding: 20px 0px;
+        min-height: 0px;
     }
 
     .service p{
